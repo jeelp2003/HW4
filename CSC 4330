@@ -4,5 +4,10 @@ class Token:
         self.value = value
 
 class Lexer:
-    def __init__(self, filename):
+    def __init__(self, tokens):
+        self.tokens = tokens    
+        self.number = 0
+
+    def tokenize():
+        
         
